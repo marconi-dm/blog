@@ -24,12 +24,23 @@
 
     <!-- ClipPath para limitar os elementos ao rect -->
     <clipPath id="rect-clip">
-      <rect x="0" y="25" width="90" height="43" rx="20" ry="20" />
+      <rect
+        x="0"
+        y="25"
+        width="90"
+        height="43"
+        rx="20"
+        ry="20"
+      />
     </clipPath>
 
     <!-- Máscara para as crateras -->
     <clipPath id="moon-clip">
-      <circle cx="25" cy="47" r="18" />
+      <circle
+        cx="25"
+        cy="47"
+        r="18"
+      />
     </clipPath>
 
     <!-- Elementos limitados ao rect -->
@@ -45,34 +56,115 @@
       />
 
       <!-- Crateras da lua com máscara -->
-      <g id="craters" class="transition" clip-path="url(#moon-clip)">
-        <circle cx="15" cy="35" r="5" fill="#8c8c8c" />
-        <circle cx="25" cy="40" r="3" fill="#8c8c8c" />
-        <circle cx="10" cy="56" r="8" fill="#8c8c8c" />
-        <circle cx="39" cy="48" r="5" fill="#8c8c8c" />
-        <circle cx="25" cy="58" r="2.5" fill="#8c8c8c" />
+      <g
+        id="craters"
+        class="transition"
+        clip-path="url(#moon-clip)"
+      >
+        <circle
+          cx="15"
+          cy="35"
+          r="5"
+          fill="#8c8c8c"
+        />
+        <circle
+          cx="25"
+          cy="40"
+          r="3"
+          fill="#8c8c8c"
+        />
+        <circle
+          cx="10"
+          cy="56"
+          r="8"
+          fill="#8c8c8c"
+        />
+        <circle
+          cx="39"
+          cy="48"
+          r="5"
+          fill="#8c8c8c"
+        />
+        <circle
+          cx="25"
+          cy="58"
+          r="2.5"
+          fill="#8c8c8c"
+        />
       </g>
 
       <!-- Nuvens -->
-      <g id="clouds" class="transition">
+      <g
+        id="clouds"
+        class="transition"
+      >
         <!-- Nuvem 1 -->
-        <g id="cloud1" transform="translate(11, 40)">
-          <circle cx="0" cy="0" r="4" fill="#d9d9d9" />
-          <circle cx="5" cy="0" r="5" fill="#d9d9d9" />
-          <circle cx="10" cy="0" r="4" fill="#d9d9d9" />
-          <circle cx="5" cy="3" r="6" fill="#d9d9d9" />
+        <g
+          id="cloud1"
+          transform="translate(11, 40)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            r="4"
+            fill="#d9d9d9"
+          />
+          <circle
+            cx="5"
+            cy="0"
+            r="5"
+            fill="#d9d9d9"
+          />
+          <circle
+            cx="10"
+            cy="0"
+            r="4"
+            fill="#d9d9d9"
+          />
+          <circle
+            cx="5"
+            cy="3"
+            r="6"
+            fill="#d9d9d9"
+          />
         </g>
         <!-- Nuvem 2 -->
-        <g id="cloud2" transform="translate(27, 53)">
-          <circle cx="0" cy="0" r="5" fill="#d9d9d9" />
-          <circle cx="7" cy="0" r="6" fill="#d9d9d9" />
-          <circle cx="14" cy="0" r="5" fill="#d9d9d9" />
-          <circle cx="7" cy="3" r="7" fill="#d9d9d9" />
+        <g
+          id="cloud2"
+          transform="translate(27, 53)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            r="5"
+            fill="#d9d9d9"
+          />
+          <circle
+            cx="7"
+            cy="0"
+            r="6"
+            fill="#d9d9d9"
+          />
+          <circle
+            cx="14"
+            cy="0"
+            r="5"
+            fill="#d9d9d9"
+          />
+          <circle
+            cx="7"
+            cy="3"
+            r="7"
+            fill="#d9d9d9"
+          />
         </g>
       </g>
 
       <!-- Estrelas -->
-      <g id="stars" class="transition">
+      <g
+        id="stars"
+        class="transition"
+      >
         <!-- Estrela superior -->
         <path
           id="star1"

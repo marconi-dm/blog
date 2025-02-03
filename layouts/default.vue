@@ -1,11 +1,9 @@
 <template>
-  <div class="container mx-auto max-w-3xl">
+  <div class="container mx-auto max-w-4xl">
     <header class="flex justify-between items-center mt-5">
       <div class="flex items-center space-x-12">
         <div>
-          <NuxtLink to="/" class="text-xl font-semibold p-2 hover:bg-gray-200"
-            >Marconi Damasceno</NuxtLink
-          >
+          <NuxtLink to="/" class="text-xl font-semibold p-2 hover:bg-gray-200">Marconi Damasceno</NuxtLink>
         </div>
         <Menu />
       </div>
@@ -36,6 +34,7 @@ useHead({
   ],
 })
 </script>
+
 <style>
 body {
   font-family: 'Roboto';
